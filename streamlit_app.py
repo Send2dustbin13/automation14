@@ -11,7 +11,7 @@ with col2:
 with col3:
     st.button('REPORT')
 with col4:
-    st.button('DELETE NO.')
+    st.button('SOLD')
 with col5:
     st.button('ADD NO.')
 with col6:
