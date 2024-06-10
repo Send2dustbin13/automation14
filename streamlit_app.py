@@ -7,6 +7,6 @@ email = st.text_input("Enter Email address")
 number = st.text_input("Enter Mobile number")
 checkbox = st.checkbox("Get latest news and updates...")
 
-save = st.save("Submit")
+save = st.button("Submit")
 if save:
   st.success("Submitted successfully !!!")
