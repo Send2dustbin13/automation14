@@ -1,11 +1,9 @@
 import streamlit as st
 
-st.title("ADD NUMBER")
-number = st.text_input("NUMBER")
-date = st.date_input("DATE")
-number = st.text_input("CATEGORY")
-price = st.text_input("PRICE")
+st.title("VIP NUMBERS")
 
-save = st.button("SUBMIT")
-if save:
-  st.success("SUBMITTED SUCCESSFULLY !!!")
+st.button("Add Number")
+st.button("Delete Number")
+st.button("Report")
+st.button("Sign in")
+st.button("Request number")
