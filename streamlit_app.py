@@ -8,5 +8,5 @@ number = st.text_input("Enter Mobile number")
 checkbox = st.checkbox("Get latest news and updates...")
 
 save = st.save("Submit")
-if save
+if save:
   st.success("Submitted successfully !!!")
