@@ -14,6 +14,7 @@ with col4:
     st.button('SOLD')
 with col5:
     st.button('ADD NO.')
+        st.link("https://addpage.streamlit.app/")
 with col6:
     st.button('SIGN IN')
 
