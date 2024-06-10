@@ -11,5 +11,5 @@ save = st.button("Submit")
 cancel = st.button("Cancel")
 if save:
   st.success("Submitted successfully !!!")
-else:
+else if cancel:
   st.error("Canceled successfully")
